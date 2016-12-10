@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/RALEWAY-SEMIBOLD.TTF');
+}
+
+* {
+  -fx-focus-color: transparent;
+}
+
+.scroll-pane {
+  -fx-background-color: transparent;
+}
+
+.scroll-bar .increment-button {
+  visibility: hidden;
+}
+
+.scroll-bar .increment-arrow {
+  visibility: hidden;
+}
+
+.scroll-bar .decrement-button {
+  visibility: hidden;
+}
+
+.scroll-bar .decrement-arrow {
+  visibility: hidden;
+}
+
+.scroll-bar:vertical {
+  -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .track-background {
+  visibility: hidden;
+}
+
+.scroll-bar:vertical .track {
+  visibility: hidden;
+}
+
+.scroll-bar:vertical .thumb {
+  -fx-background-color: rgba(128.0, 16.0, 128.0, 0.5);
+  -fx-background-radius: 20.0px;
+}
+
+.check-box .box {
+  -fx-background-insets: 0.0;
+  -fx-background-radius: 25.0%;
+  -fx-background-color: rgba(128.0, 16.0, 128.0, 0.5);
+}
+
+.check-box:selected .box .mark {
+  -fx-background-image: url("checkmark.png");
+  -fx-shape: "m 229.89169,538.05684 c -42.90375,-49.80325 -79.05545,-91.79903 -80.3371,-93.32395 l -2.33028,-2.7726 2.25247,-2.95313 c 1.23886,-1.62424 2.62348,-2.95315 3.07693,-2.95315 0.45345,0 30.19911,16.60462 66.10146,36.89915 35.90235,20.29454 65.59736,36.89916 65.98892,36.89916 0.39155,0 2.77327,-2.9583 5.29271,-6.57399 7.09817,-10.18669 33.94744,-45.65909 47.03022,-62.13478 65.29348,-82.2269 137.39329,-155.97465 206.99447,-211.72567 31.75965,-25.43968 61.63755,-46.38233 91.37692,-64.04982 l 12.48908,-7.41948 2.56426,3.23763 2.56425,3.23763 -12.08444,11.28733 c -26.28763,24.55368 -61.60824,60.10014 -83.37238,83.90551 -92.23516,100.88577 -167.22927,212.43919 -238.22531,354.35911 -6.41433,12.82213 -7.57079,14.63242 -9.34765,14.63242 -1.63828,0 -17.00911,-17.39063 -80.03453,-90.55137 z";
+  -fx-mark-color: rgb(64.0, 8.0, 64.0);
+  -fx-effect: innershadow(gaussian, rgb(32.0, 8.0, 32.0), 5.0, 0.9, 0.0, 0.0);
+}
+
+#deletebutton {
+  -fx-background-color: #DC143C;
+  -fx-background-radius: 5.0px;
+  -fx-text-fill: #F5F5F5;
+  -fx-font-size: 12.0px;
+  -fx-font-family: "Raleway";
+}
+
+#sploderbutton {
+     -fx-font-family: "Verdana";
+     -fx-font-size: 12.0px;
+     -fx-font-weight: bold;
+     -fx-text-fill: #eefeef;
+     -fx-background-image: url("loginButtonBackground.png");
+     -fx-background-color: transparent;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: contain;
+     -fx-background-position: center center;
+}
+
+#sploderbutton:hover {
+	-fx-background-image: url("loginButtonBackgroundHover.png");
+}
+
+#sploderbutton:armed {
+	-fx-background-image: url("loginButtonBackgroundHover.png");
+	-fx-effect: innershadow(gaussian, rgba(0.0, 0.0, 0.0, 0.5), 10.0, 0.5, 0.0, 0.0);
+}
+
+#splodertextfield {
+	-fx-background-color: rgb(64.0, 16.0, 64.0);
+	-fx-background-radius: 5.0px;
+	-fx-text-fill: #f5f5f5;
+	-fx-font-size: 12.0px;
+	-fx-font-family: "Raleway";
+	-fx-effect: innershadow(gaussian, rgba(32.0, 8.0, 32.0, 0.5), 5.0, 0.0, 0.0, 0.0);
+}

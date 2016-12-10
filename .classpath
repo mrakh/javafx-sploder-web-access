@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/cssparser-0.9.18.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/htmlunit-2.19.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/htmlunit-core-js-2.17.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/httpclient-4.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTMLUnit/httpcore-4.4.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTMLUnit/httpmime-4.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTMLUnit/jetty-io-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/jetty-util-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/nekohtml-1.9.22.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/websocket-api-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/websocket-client-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/websocket-common-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="resources/HTMLUnit/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="resources/HTTPComponents/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="resources/HTTPComponents/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="resources/HTTPComponents/fluent-hc-4.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTTPComponents/httpclient-4.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTTPComponents/httpclient-cache-4.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTTPComponents/httpclient-win-4.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTTPComponents/httpcore-4.4.3.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTTPComponents/httpmime-4.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/HTTPComponents/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="resources/HTTPComponents/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="resources/JSoup/jsoup-1.8.3.jar" sourcepath="resources/JSoup/jsoup-1.8.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Sploder%20Web%20Access/resources/JSoup/jsoup-1.8.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="resources/Gif89Encoder/lib/classes.jar"/>
+	<classpathentry kind="lib" path="resources/Guava/guava-19.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Sploder%20Web%20Access/resources/Guava/guava-19.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
